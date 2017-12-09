@@ -25,6 +25,6 @@ add_definitions(-DARDUINO_ARCH_AVR)
 
 generate_arduino_firmware(Skalleper
         SKETCH Skalleper.ino
-        SRCS Eye.cpp Skalleper.cpp /opt/arduino-1.8.1/libraries/Servo/src/avr/Servo.cpp
+        SRCS Eye.cpp Skalleper.cpp Skalleper.ino /opt/arduino-1.8.1/libraries/Servo/src/avr/Servo.cpp
         HDRS Eye.h Skalleper.h
         BOARD uno)
