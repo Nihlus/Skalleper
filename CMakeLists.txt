@@ -5,10 +5,12 @@ set(PROJECT_NAME Skalleper)
 project(${PROJECT_NAME})
 
 set(ARDUINO_DEFAULT_BOARD uno)
-set(ARDUINO_DEFAULT_PORT /dev/ttyUSB0)
+set(ARDUINO_DEFAULT_PORT /dev/ttyACM0)
 
 link_directories(/home/jarl/Arduino/libraries/Chrono)
 link_directories(/home/jarl/Arduino/libraries/StandardCplusplus)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-threadsafe-statics -fno-exceptions -ffunction-sections -fdata-sections")
 
 #[[
 generate_arduino_firmware(Skalleper
