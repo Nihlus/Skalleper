@@ -21,7 +21,6 @@
 //
 
 #include <Arduino.h>
-#include <Servo.h>
 #include "Skalleper.h"
 
 Skalleper::Skalleper(uint8_t leftEyePin, uint8_t rightEyePin)
