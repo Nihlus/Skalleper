@@ -34,7 +34,6 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DARDUINO_ARCH_AVR"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
@@ -53,7 +52,6 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DARDUINO_ARCH_AVR"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
@@ -72,7 +70,6 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DARDUINO_ARCH_AVR"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
@@ -91,7 +88,6 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DARDUINO_ARCH_AVR"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
@@ -110,7 +106,6 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DARDUINO_ARCH_AVR"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
@@ -129,7 +124,6 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DARDUINO_ARCH_AVR"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
@@ -148,7 +142,6 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DARDUINO_ARCH_AVR"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
@@ -167,7 +160,6 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DARDUINO_ARCH_AVR"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
@@ -186,7 +178,6 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DARDUINO_ARCH_AVR"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
@@ -205,7 +196,6 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DARDUINO_ARCH_AVR"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
@@ -224,7 +214,6 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DARDUINO_ARCH_AVR"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
@@ -243,7 +232,6 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DARDUINO_ARCH_AVR"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
 					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
@@ -468,12 +456,6 @@
 		<Unit filename="/home/jarl/Programming/Skalleper/Skalleper.ino">
 			<Option target="Skalleper"/>
 		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake-build-debug/Skalleper_Skalleper.ino.cpp">
-			<Option target="Skalleper"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake-build-debug/Skalleper_Skalleper.ino.cpp.rule">
-			<Option target="Skalleper"/>
-		</Unit>
 		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Arduino.h">
 			<Option target="uno_CORE"/>
 		</Unit>
@@ -608,9 +590,6 @@
 		</Unit>
 		<Unit filename="/opt/arduino-1.8.0/libraries/Servo/src/Servo.h">
 			<Option target="uno_Servo"/>
-		</Unit>
-		<Unit filename="/opt/arduino-1.8.0/libraries/Servo/src/avr/Servo.cpp">
-			<Option target="Skalleper"/>
 		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
