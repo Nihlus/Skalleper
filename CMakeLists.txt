@@ -7,24 +7,21 @@ project(${PROJECT_NAME})
 set(ARDUINO_DEFAULT_BOARD uno)
 set(ARDUINO_DEFAULT_PORT /dev/ttyACM0)
 
+include_directories(/home/jarl/Arduino/libraries/Chrono)
+include_directories(/home/jarl/Arduino/libraries/StandardCplusplus)
+
 link_directories(/home/jarl/Arduino/libraries/Chrono)
 link_directories(/home/jarl/Arduino/libraries/StandardCplusplus)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-threadsafe-statics -fno-exceptions -ffunction-sections -fdata-sections")
 
-#[[
-generate_arduino_firmware(Skalleper
-		SKETCH Skalleper.ino
-		SRCS Eye.cpp Skalleper.cpp
-		HDRS Eye.h Skalleper.h
-		BOARD uno)
-]]
+set(Servo_RECURSE True)
 
 # Workaround for incorrect arch
 add_definitions(-DARDUINO_ARCH_AVR)
 
 generate_arduino_firmware(Skalleper
         SKETCH Skalleper.ino
-        SRCS Eye.cpp Skalleper.cpp Skalleper.ino /opt/arduino-1.8.1/libraries/Servo/src/avr/Servo.cpp
+        SRCS Eye.cpp Skalleper.cpp Skalleper.ino
         HDRS Eye.h Skalleper.h
         BOARD uno)
