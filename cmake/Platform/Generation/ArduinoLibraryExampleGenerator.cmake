@@ -13,6 +13,9 @@ function(GENERATE_ARDUINO_LIBRARY_EXAMPLE INPUT_NAME)
     if (NOT INPUT_BOARD)
         set(INPUT_BOARD ${ARDUINO_DEFAULT_BOARD})
     endif ()
+    if (NOT INPUT_BOARD_CPU AND ARDUINO_DEFAULT_BOARD_CPU)
+        set(INPUT_BOARD_CPU ${ARDUINO_DEFAULT_BOARD_CPU})
+    endif ()
     if (NOT INPUT_PORT)
         set(INPUT_PORT ${ARDUINO_DEFAULT_PORT})
     endif ()
@@ -46,7 +49,7 @@ function(GENERATE_ARDUINO_LIBRARY_EXAMPLE INPUT_NAME)
         message(FATAL_ERROR "Missing sources for example, aborting!")
     endif ()
 
-    make_arduino_libraries(ALL_LIBS ${BOARD_ID} "${ALL_SRCS}" "${TARGET_LIBS}"
+    make_arduino_libraries(ALL_LIBS ${BOARD_ID} "${TARGET_LIBS}"
             "${LIB_DEP_INCLUDES}" "")
 
     list(APPEND ALL_LIBS ${CORE_LIB} ${INPUT_LIBS})

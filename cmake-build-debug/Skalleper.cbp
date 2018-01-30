@@ -215,13 +215,7 @@
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake-build-debug/Skalleper_Skalleper.ino.cpp.rule">
 			<Option target="Skalleper"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/Arduino.h">
-			<Option target="uno_CORE"/>
-		</Unit>
 		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/CDC.cpp">
-			<Option target="uno_CORE"/>
-		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/Client.h">
 			<Option target="uno_CORE"/>
 		</Unit>
 		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp">
@@ -242,9 +236,6 @@
 		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/HardwareSerial_private.h">
-			<Option target="uno_CORE"/>
-		</Unit>
 		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/IPAddress.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
@@ -263,12 +254,6 @@
 		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/Print.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/Printable.h">
-			<Option target="uno_CORE"/>
-		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/Server.h">
-			<Option target="uno_CORE"/>
-		</Unit>
 		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/Stream.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
@@ -278,22 +263,10 @@
 		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/Tone.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/USBAPI.h">
-			<Option target="uno_CORE"/>
-		</Unit>
 		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/USBCore.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
 		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/USBCore.h">
-			<Option target="uno_CORE"/>
-		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/USBDesc.h">
-			<Option target="uno_CORE"/>
-		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/Udp.h">
-			<Option target="uno_CORE"/>
-		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/WCharacter.h">
 			<Option target="uno_CORE"/>
 		</Unit>
 		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/WInterrupts.c">
@@ -309,9 +282,6 @@
 			<Option target="uno_CORE"/>
 		</Unit>
 		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/abi.cpp">
-			<Option target="uno_CORE"/>
-		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/binary.h">
 			<Option target="uno_CORE"/>
 		</Unit>
 		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/hooks.c">
@@ -335,9 +305,6 @@
 		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/wiring_digital.c">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/wiring_private.h">
-			<Option target="uno_CORE"/>
-		</Unit>
 		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/wiring_pulse.S">
 			<Option target="uno_CORE"/>
 		</Unit>
@@ -347,25 +314,13 @@
 		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/wiring_shift.c">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/libraries/Servo/src/Servo.h">
-			<Option target="uno_Servo"/>
-		</Unit>
 		<Unit filename="/opt/arduino-1.8.1/libraries/Servo/src/avr/Servo.cpp">
-			<Option target="uno_Servo"/>
-		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/libraries/Servo/src/avr/ServoTimers.h">
 			<Option target="uno_Servo"/>
 		</Unit>
 		<Unit filename="/opt/arduino-1.8.1/libraries/Servo/src/sam/Servo.cpp">
 			<Option target="uno_Servo"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/libraries/Servo/src/sam/ServoTimers.h">
-			<Option target="uno_Servo"/>
-		</Unit>
 		<Unit filename="/opt/arduino-1.8.1/libraries/Servo/src/samd/Servo.cpp">
-			<Option target="uno_Servo"/>
-		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/libraries/Servo/src/samd/ServoTimers.h">
 			<Option target="uno_Servo"/>
 		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/CMakeLists.txt">
@@ -633,6 +588,12 @@
 			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
 		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Extras/GeneratorSettingsLoader.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
+		</Unit>
+		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Extras/CheckPathExistsCaseSensitive.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
+		</Unit>
+		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Extras/CheckPathExistsCaseSensitive.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
 		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/AvrLibraryGenerator.cmake">
