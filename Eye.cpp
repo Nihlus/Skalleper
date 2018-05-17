@@ -23,22 +23,25 @@
 #include <Arduino.h>
 #include "Eye.h"
 
-Eye::Eye(uint8_t pin)
+Eye::Eye(uint8_t pirPin, uint8_t ledPin)
 {
-	this->Pin = pin;
-	this->State = LOW;
+	this->PIRPin = pirPin;
+	this->PIRState = LOW;
 
-	this->Callbacks;
+	pinMode(this->PIRPin, INPUT);
 
-	pinMode(this->Pin, INPUT);
+	this->LEDPin = ledPin;
+	pinMode(this->LEDPin, OUTPUT);
+
+	digitalWrite(this->LEDPin, HIGH);
 }
 
 bool Eye::CheckMotion()
 {
-	int val = digitalRead(this->Pin);  // read input value
+	int val = digitalRead(this->PIRPin);  // read input value
 	if (val == HIGH)
 	{
-		if (this->State == LOW)
+		if (this->PIRState == LOW)
 		{
 			if (!this->Callbacks.empty())
 			{
@@ -48,13 +51,13 @@ bool Eye::CheckMotion()
 				}
 			}
 
-			this->State = HIGH;
+			this->PIRState = HIGH;
 		}
 		return true;
 	}
 	else
 	{
-		if (this->State == HIGH)
+		if (this->PIRState == HIGH)
 		{
 			if (!this->Callbacks.empty())
 			{
@@ -64,7 +67,7 @@ bool Eye::CheckMotion()
 				}
 			}
 
-			this->State = LOW;
+			this->PIRState = LOW;
 		}
 		return false;
 	}
@@ -78,4 +81,21 @@ void Eye::AddCallback(MotionCallback callback)
 void Eye::RemoveCallback(MotionCallback callback)
 {
 	this->Callbacks.erase(remove(this->Callbacks.begin(), this->Callbacks.end(), callback), this->Callbacks.end());
+}
+
+void Eye::Blink()
+{
+	Close();
+	delay(300);
+	Open();
+}
+
+void Eye::Open()
+{
+	digitalWrite(this->LEDPin, HIGH);
+}
+
+void Eye::Close()
+{
+	digitalWrite(this->LEDPin, LOW);
 }

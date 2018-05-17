@@ -23,10 +23,10 @@
 #include <Arduino.h>
 #include "Skalleper.h"
 
-Skalleper::Skalleper(uint8_t leftEyePin, uint8_t rightEyePin)
+Skalleper::Skalleper(uint8_t leftEyePIRPin, uint8_t rightEyePIRPin, uint8_t leftEyeLEDPin, uint8_t rightEyeLEDPin)
 {
-	this->leftEye = new Eye(leftEyePin);
-	this->rightEye = new Eye(rightEyePin);
+	this->LeftEye = new Eye(leftEyePIRPin, leftEyeLEDPin);
+	this->RightEye = new Eye(rightEyePIRPin, rightEyeLEDPin);
 
 	this->Stopwatch = new Chrono();
 }
@@ -43,7 +43,7 @@ void Skalleper::OpenMouth()
 
 void Skalleper::AttachMouth(uint8_t mouthPin)
 {
-	this->mouth.attach(mouthPin);
+	this->Mouth.attach(mouthPin);
 }
 
 void Skalleper::AddMotionCallback(MotionCallback callback, EyeSide eyeSide)
@@ -52,12 +52,12 @@ void Skalleper::AddMotionCallback(MotionCallback callback, EyeSide eyeSide)
 	{
 		case EyeSide::Left:
 		{
-			leftEye->AddCallback(callback);
+			LeftEye->AddCallback(callback);
 			break;
 		}
 		case EyeSide::Right:
 		{
-			rightEye->AddCallback(callback);
+			RightEye->AddCallback(callback);
 			break;
 		}
 	}
@@ -69,12 +69,12 @@ void Skalleper::RemoveMotionCallback(MotionCallback callback, EyeSide eyeSide)
 	{
 		case EyeSide::Left:
 		{
-			leftEye->RemoveCallback(callback);
+			LeftEye->RemoveCallback(callback);
 			break;
 		}
 		case EyeSide::Right:
 		{
-			rightEye->RemoveCallback(callback);
+			RightEye->RemoveCallback(callback);
 			break;
 		}
 	}
@@ -84,8 +84,8 @@ void Skalleper::Tick()
 {
 	this->Stopwatch->restart();
 
-	this->leftEye->CheckMotion();
-	this->rightEye->CheckMotion();
+	this->LeftEye->CheckMotion();
+	this->RightEye->CheckMotion();
 
 	unsigned long millis = this->Stopwatch->elapsed();
 
@@ -114,7 +114,7 @@ void Skalleper::SetMouthAngle(int angle)
 		angle = static_cast<int>(map(angle, 0, 90, 0, 180));
 	}
 
-	this->mouth.write(angle);
+	this->Mouth.write(angle);
 }
 
 void Skalleper::Cackle()
@@ -132,3 +132,18 @@ void Skalleper::Reset()
 {
 	CloseMouth();
 }
+
+void Skalleper::Wink()
+{
+	this->RightEye->Blink();
+}
+
+void Skalleper::Blink()
+{
+	this->RightEye->Close();
+	this->LeftEye->Close();
+	delay(300);
+	this->RightEye->Open();
+	this->LeftEye->Close();
+}
+

@@ -7,11 +7,8 @@ project(${PROJECT_NAME})
 set(ARDUINO_DEFAULT_BOARD uno)
 set(ARDUINO_DEFAULT_PORT /dev/ttyACM0)
 
-include_directories(/home/jarl/Arduino/libraries/Chrono)
-include_directories(/home/jarl/Arduino/libraries/StandardCplusplus)
-
-link_directories(/home/jarl/Arduino/libraries/Chrono)
-link_directories(/home/jarl/Arduino/libraries/StandardCplusplus)
+include_directories(/home/jarl/Arduino/libraries)
+link_directories(/home/jarl/Arduino/libraries)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-threadsafe-statics -fno-exceptions -ffunction-sections -fdata-sections")
 

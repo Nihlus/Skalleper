@@ -32,15 +32,22 @@ using namespace std;
 
 class Eye
 {
-	uint8_t Pin;
-	int State;
+	uint8_t PIRPin;
+	int PIRState;
 	vector<MotionCallback> Callbacks;
 
+	uint8_t LEDPin;
+
 public:
-	explicit Eye(uint8_t pin);
+	explicit Eye(uint8_t pirPin, uint8_t ledPin);
 	bool CheckMotion();
 	void AddCallback(MotionCallback callback);
 	void RemoveCallback(MotionCallback callback);
+
+	void Open();
+	void Close();
+
+	void Blink();
 };
 
 #endif //SKALLEPER_EYE_H

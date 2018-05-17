@@ -18,36 +18,24 @@ function(build_arduino_bootloader_arguments BOARD_ID TARGET_NAME PORT AVRDUDE_FL
     if (NOT AVRDUDE_FLAGS)
         set(AVRDUDE_FLAGS ${ARDUINO_AVRDUDE_FLAGS})
     endif ()
-    
-    _try_get_board_property(${BOARD_ID} build.mcu MCU)
-    if(NOT "${MCU}" STREQUAL "")
-       list(APPEND AVRDUDE_ARGS
-            "-p${MCU}"        # MCU Type
-            )
-    endif()
-    
+    _get_board_property(${BOARD_ID} build.mcu MCU)
     list(APPEND AVRDUDE_ARGS
             "-C${ARDUINO_AVRDUDE_CONFIG_PATH}"  # avrdude config
+            "-p${MCU}"        # MCU Type
             )
 
     # Programmer
-    _try_get_board_property(${BOARD_ID} upload.protocol UPLOAD_PROTOCOL)
-    if(NOT "${UPLOAD_PROTOCOL}" STREQUAL "")
-      if (${UPLOAD_PROTOCOL} STREQUAL "stk500")
-         list(APPEND AVRDUDE_ARGS "-cstk500v1")
-      else ()
-         list(APPEND AVRDUDE_ARGS "-c${UPLOAD_PROTOCOL}")
-      endif ()
-    endif()
+    _get_board_property(${BOARD_ID} upload.protocol UPLOAD_PROTOCOL)
+    if (${UPLOAD_PROTOCOL} STREQUAL "stk500")
+        list(APPEND AVRDUDE_ARGS "-cstk500v1")
+    else ()
+        list(APPEND AVRDUDE_ARGS "-c${UPLOAD_PROTOCOL}")
+    endif ()
 
-    _try_get_board_property(${BOARD_ID} upload.speed UPLOAD_SPEED)
-    if(NOT "${UPLOAD_SPEED}" STREQUAL "")
-        list(APPEND AVRDUDE_ARGS
-            "-b${UPLOAD_SPEED}"     # Baud rate
-            )
-    endif()
-    
+
+    _get_board_property(${BOARD_ID} upload.speed UPLOAD_SPEED)
     list(APPEND AVRDUDE_ARGS
+            "-b${UPLOAD_SPEED}"     # Baud rate
             "-P${PORT}"             # Serial port
             "-D"                    # Dont erase
             )

@@ -35,15 +35,15 @@ enum class EyeSide
 
 class Skalleper
 {
-	struct Eye* leftEye;
-	struct Eye* rightEye;
+	struct Eye* LeftEye;
+	struct Eye* RightEye;
 
-	Servo mouth;
-	int mouthPos = 0;
+	Servo Mouth;
+	int MouthPosition = 0;
 
 
 public:
-	Skalleper(uint8_t leftEyePin, uint8_t rightEyePin);
+	Skalleper(uint8_t leftEyePIRPin, uint8_t rightEyePIRPin, uint8_t leftEyeLEDPin, uint8_t rightEyeLEDPin);
 
 	unsigned long MotionDelay = 2;
 
@@ -52,6 +52,9 @@ public:
 	void OpenMouth();
 
 	void Cackle();
+
+	void Wink();
+	void Blink();
 
 	void AddMotionCallback(MotionCallback callback, EyeSide eyeSide);
 	void RemoveMotionCallback(MotionCallback callback, EyeSide eyeSide);

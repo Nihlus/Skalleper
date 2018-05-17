@@ -25,18 +25,21 @@
 #include <Arduino.h>
 #include "Skalleper.h"
 
-#define LEFT_EYE_PIN 9
-#define RIGHT_EYE_PIN 10
-#define SERVO_PIN 11
-
-#line 32 "/home/jarl/Programming/Skalleper/cmake-build-debug/Skalleper_Skalleper.ino.cpp"
+#line 28 "/home/jarl/Programming/Skalleper/cmake-build-debug/Skalleper_Skalleper.ino.cpp"
 #include "Arduino.h"
-#line 28 ""
+#line 24 ""
 
+
+const uint8_t LEFT_EYE_PIR_PIN = 9;
+const uint8_t RIGHT_EYE_PIR_PIN = 10;
+const uint8_t SERVO_PIN = 11;
+
+const uint8_t LEFT_EYE_LED_PIN  = A0;
+const uint8_t RIGHT_EYE_LED_PIN = A1;
 
 Skalleper* skalleper;
 
-void onLeftEyeMotionChange(bool isMotionStart)
+void OnLeftEyeMotionChange(bool isMotionStart)
 {
 	isMotionStart
 		? Serial.println("Left eye motion start")
@@ -47,7 +50,7 @@ void onLeftEyeMotionChange(bool isMotionStart)
 		: digitalWrite(LED_BUILTIN, LOW);
 }
 
-void onRightEyeMotionChange(bool isMotionStart)
+void OnRightEyeMotionChange(bool isMotionStart)
 {
 	isMotionStart
 	? Serial.println("Right eye motion start")
@@ -60,11 +63,11 @@ void onRightEyeMotionChange(bool isMotionStart)
 
 void setup()
 {
-	skalleper = new Skalleper(LEFT_EYE_PIN, RIGHT_EYE_PIN);
+	skalleper = new Skalleper(LEFT_EYE_PIR_PIN, RIGHT_EYE_PIR_PIN, LEFT_EYE_LED_PIN, RIGHT_EYE_LED_PIN);
 	skalleper->AttachMouth(SERVO_PIN);
 
-	skalleper->AddMotionCallback(&onLeftEyeMotionChange, EyeSide::Left);
-	skalleper->AddMotionCallback(&onRightEyeMotionChange, EyeSide::Right);
+	skalleper->AddMotionCallback(&OnLeftEyeMotionChange, EyeSide::Left);
+	skalleper->AddMotionCallback(&OnRightEyeMotionChange, EyeSide::Right);
 
 	pinMode(LED_BUILTIN, OUTPUT);
 

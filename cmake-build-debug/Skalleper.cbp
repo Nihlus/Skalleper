@@ -11,60 +11,50 @@
 				<Option working_dir="/home/jarl/Programming/Skalleper/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/jarl/Programming/Skalleper/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/jarl/Programming/Skalleper/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="upload">
 				<Option working_dir="/home/jarl/Programming/Skalleper/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 upload"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Skalleper-upload">
-				<Option working_dir="/home/jarl/Programming/Skalleper/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 Skalleper-upload"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 upload"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Skalleper-size">
 				<Option working_dir="/home/jarl/Programming/Skalleper/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 Skalleper-size"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 Skalleper-size"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Skalleper">
@@ -75,17 +65,16 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DARDUINO_ARCH_AVR"/>
-					<Add directory="/home/jarl/Arduino/libraries/Chrono"/>
-					<Add directory="/home/jarl/Arduino/libraries/StandardCplusplus"/>
-					<Add directory="/opt/arduino-1.8.1/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
-					<Add directory="/opt/arduino-1.8.1/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
-					<Add directory="/opt/arduino-1.8.1/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+					<Add directory="/home/jarl/Arduino/libraries"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 Skalleper"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 Skalleper"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Skalleper/fast">
@@ -96,17 +85,16 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DARDUINO_ARCH_AVR"/>
-					<Add directory="/home/jarl/Arduino/libraries/Chrono"/>
-					<Add directory="/home/jarl/Arduino/libraries/StandardCplusplus"/>
-					<Add directory="/opt/arduino-1.8.1/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
-					<Add directory="/opt/arduino-1.8.1/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
-					<Add directory="/opt/arduino-1.8.1/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+					<Add directory="/home/jarl/Arduino/libraries"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 Skalleper/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 Skalleper/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="uno_Servo">
@@ -117,17 +105,16 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DARDUINO_ARCH_AVR"/>
-					<Add directory="/home/jarl/Arduino/libraries/Chrono"/>
-					<Add directory="/home/jarl/Arduino/libraries/StandardCplusplus"/>
-					<Add directory="/opt/arduino-1.8.1/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
-					<Add directory="/opt/arduino-1.8.1/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
-					<Add directory="/opt/arduino-1.8.1/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+					<Add directory="/home/jarl/Arduino/libraries"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_Servo"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_Servo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="uno_Servo/fast">
@@ -138,17 +125,106 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DARDUINO_ARCH_AVR"/>
-					<Add directory="/home/jarl/Arduino/libraries/Chrono"/>
-					<Add directory="/home/jarl/Arduino/libraries/StandardCplusplus"/>
-					<Add directory="/opt/arduino-1.8.1/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
-					<Add directory="/opt/arduino-1.8.1/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
-					<Add directory="/opt/arduino-1.8.1/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+					<Add directory="/home/jarl/Arduino/libraries"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_Servo/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_Servo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Skalleper-upload">
+				<Option working_dir="/home/jarl/Programming/Skalleper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 Skalleper-upload"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uno_Chrono">
+				<Option output="/home/jarl/Programming/Skalleper/cmake-build-debug/libuno_Chrono.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jarl/Programming/Skalleper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARDUINO_ARCH_AVR"/>
+					<Add directory="/home/jarl/Arduino/libraries"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_Chrono"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uno_Chrono/fast">
+				<Option output="/home/jarl/Programming/Skalleper/cmake-build-debug/libuno_Chrono.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jarl/Programming/Skalleper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARDUINO_ARCH_AVR"/>
+					<Add directory="/home/jarl/Arduino/libraries"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_Chrono/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uno_StandardCplusplus">
+				<Option output="/home/jarl/Programming/Skalleper/cmake-build-debug/libuno_StandardCplusplus.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jarl/Programming/Skalleper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARDUINO_ARCH_AVR"/>
+					<Add directory="/home/jarl/Arduino/libraries"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_StandardCplusplus"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uno_StandardCplusplus/fast">
+				<Option output="/home/jarl/Programming/Skalleper/cmake-build-debug/libuno_StandardCplusplus.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jarl/Programming/Skalleper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARDUINO_ARCH_AVR"/>
+					<Add directory="/home/jarl/Arduino/libraries"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_StandardCplusplus/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="uno_CORE">
@@ -159,17 +235,16 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DARDUINO_ARCH_AVR"/>
-					<Add directory="/home/jarl/Arduino/libraries/Chrono"/>
-					<Add directory="/home/jarl/Arduino/libraries/StandardCplusplus"/>
-					<Add directory="/opt/arduino-1.8.1/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
-					<Add directory="/opt/arduino-1.8.1/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
-					<Add directory="/opt/arduino-1.8.1/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+					<Add directory="/home/jarl/Arduino/libraries"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_CORE"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_CORE"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="uno_CORE/fast">
@@ -180,20 +255,172 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DARDUINO_ARCH_AVR"/>
-					<Add directory="/home/jarl/Arduino/libraries/Chrono"/>
-					<Add directory="/home/jarl/Arduino/libraries/StandardCplusplus"/>
-					<Add directory="/opt/arduino-1.8.1/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include"/>
-					<Add directory="/opt/arduino-1.8.1/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/include-fixed"/>
-					<Add directory="/opt/arduino-1.8.1/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+					<Add directory="/home/jarl/Arduino/libraries"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_CORE/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_CORE/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jarl/Programming/Skalleper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/jarl/Arduino/libraries/Chrono/Chrono.cpp">
+			<Option target="uno_Chrono"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/Chrono/Chrono.h">
+			<Option target="uno_Chrono"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/Chrono/LightChrono.cpp">
+			<Option target="uno_Chrono"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/Chrono/LightChrono.h">
+			<Option target="uno_Chrono"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/StandardCplusplus.h">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/algorithm.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/associative_base.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/bitset.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/char_traits.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/complex.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/del_op.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/del_opnt.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/del_opv.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/del_opvnt.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/deque.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/eh_alloc.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/eh_globals.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/exception.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/fstream.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/func_exception.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/iomanip.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/ios.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/iostream.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/istream.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/iterator.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/limits.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/list.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/locale.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/map.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/new_handler.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/new_op.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/new_opnt.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/new_opv.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/new_opvnt.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/numeric.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/ostream.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/queue.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/set.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/sstream.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/stack.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/stdexcept.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/streambuf.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/string.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/support.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/system_configuration.h">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/typeinfo.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/unwind-cxx.h">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/utility.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/utility.h">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/valarray.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
+		<Unit filename="/home/jarl/Arduino/libraries/StandardCplusplus/vector.cpp">
+			<Option target="uno_StandardCplusplus"/>
+		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/Eye.cpp">
 			<Option target="Skalleper"/>
 		</Unit>
@@ -215,112 +442,157 @@
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake-build-debug/Skalleper_Skalleper.ino.cpp.rule">
 			<Option target="Skalleper"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/CDC.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Arduino.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/CDC.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/HardwareSerial.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Client.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/HardwareSerial.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/IPAddress.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/IPAddress.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/HardwareSerial_private.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/PluggableUSB.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/IPAddress.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/Print.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/IPAddress.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/Print.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/Stream.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/PluggableUSB.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/Stream.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Print.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/Tone.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Print.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/USBCore.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Printable.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/USBCore.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Server.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/WInterrupts.c">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Stream.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/WMath.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Stream.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/WString.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Tone.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/WString.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/USBAPI.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/abi.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/USBCore.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/hooks.c">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/USBCore.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/main.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/USBDesc.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/new.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/Udp.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/new.h">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/WCharacter.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/wiring.c">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/WInterrupts.c">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/wiring_analog.c">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/WMath.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/wiring_digital.c">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/WString.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/wiring_pulse.S">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/WString.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/wiring_pulse.c">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/abi.cpp">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/hardware/arduino/avr/cores/arduino/wiring_shift.c">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/binary.h">
 			<Option target="uno_CORE"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/libraries/Servo/src/avr/Servo.cpp">
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/hooks.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/main.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/new.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/new.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/wiring.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/wiring_analog.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/wiring_digital.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/wiring_private.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/wiring_pulse.S">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/wiring_pulse.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.0/hardware/arduino/avr/cores/arduino/wiring_shift.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.0/libraries/Servo/src/Servo.h">
 			<Option target="uno_Servo"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/libraries/Servo/src/sam/Servo.cpp">
+		<Unit filename="/opt/arduino-1.8.0/libraries/Servo/src/avr/Servo.cpp">
 			<Option target="uno_Servo"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.1/libraries/Servo/src/samd/Servo.cpp">
+		<Unit filename="/opt/arduino-1.8.0/libraries/Servo/src/avr/ServoTimers.h">
+			<Option target="uno_Servo"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.0/libraries/Servo/src/sam/Servo.cpp">
+			<Option target="uno_Servo"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.0/libraries/Servo/src/sam/ServoTimers.h">
+			<Option target="uno_Servo"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.0/libraries/Servo/src/samd/Servo.cpp">
+			<Option target="uno_Servo"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.0/libraries/Servo/src/samd/ServoTimers.h">
 			<Option target="uno_Servo"/>
 		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/CMakeLists.txt">
@@ -332,95 +604,32 @@
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Arduino.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\"/>
 		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Arduino.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Arduino.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/VariableValidator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\"/>
-		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/BoardPropertiesReader.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/SourceFinder.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Core\"/>
 		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/LibraryFinder.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Core\"/>
 		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/VariableValidator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/BoardPropertiesReader.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\"/>
-		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/SourceFinder.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/LibraryFinder.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Core\"/>
 		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/VariableValidator.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Core\"/>
 		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/BoardPropertiesReader.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/SourceFinder.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/LibraryFinder.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/BoardFlags/FlagsSetter.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\BoardFlags\"/>
-		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/BoardFlags/CompilerFlagsSetter.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\BoardFlags\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/BoardFlags/LinkerFlagsSetter.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Core\BoardFlags\"/>
 		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/BoardFlags/FlagsSetter.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Core\BoardFlags\"/>
 		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/BoardFlags/CompilerFlagsSetter.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\BoardFlags\"/>
-		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/BoardFlags/LinkerFlagsSetter.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Core\BoardFlags\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/BoardFlags/FlagsSetter.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\BoardFlags\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/BoardFlags/CompilerFlagsSetter.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\BoardFlags\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/BoardFlags/LinkerFlagsSetter.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\BoardFlags\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Sketch/ArduinoSketchToCppConverter.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Sketch\"/>
 		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Sketch/ArduinoSketchFactory.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Core\Sketch\"/>
 		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Sketch/ArduinoSketchToCppConverter.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Core\Sketch\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Sketch/ArduinoSketchFactory.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Sketch\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Sketch/ArduinoSketchToCppConverter.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Sketch\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Sketch/ArduinoSketchFactory.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Sketch\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Libraries/CoreLibraryFactory.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Libraries\"/>
 		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Libraries/ArduinoLibraryFactory.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Core\Libraries\"/>
@@ -430,33 +639,6 @@
 		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Libraries/CoreLibraryFactory.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Core\Libraries\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Libraries/ArduinoLibraryFactory.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Libraries\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Libraries/BlacklistedLibrariesRemover.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Libraries\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Libraries/CoreLibraryFactory.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Libraries\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Libraries/ArduinoLibraryFactory.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Libraries\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Libraries/BlacklistedLibrariesRemover.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Libraries\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Examples/ArduinoExampleFactory.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Examples\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Examples/ArduinoLibraryExampleFactory.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Examples\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Examples/ArduinoExampleFactory.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Examples\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Examples/ArduinoLibraryExampleFactory.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Examples\"/>
 		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Examples/ArduinoExampleFactory.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Core\Examples\"/>
@@ -488,79 +670,10 @@
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoUploadTargetCreator.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
 		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoBootloaderUploadTargetCreator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoBootloaderArgumentsBuilder.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoBootloaderBurnTargetCreator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoBootloaderUploadTargetCreator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoFirmwareTargetCreator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoProgrammerArgumentsBuilder.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoProgrammerBurnTargetCreator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoSerialTargetCreator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoUploadTargetCreator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoBootloaderUploadTargetCreator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoBootloaderArgumentsBuilder.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoBootloaderBurnTargetCreator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoBootloaderUploadTargetCreator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoFirmwareTargetCreator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoProgrammerArgumentsBuilder.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoProgrammerBurnTargetCreator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoSerialTargetCreator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoUploadTargetCreator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Core/Targets/ArduinoBootloaderUploadTargetCreator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
-		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Initialization/Initializer.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Initialization\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Initialization/Initializer.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Initialization\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Initialization/Initializer.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Initialization\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Extras/Macros.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
 		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Extras/DebugOptions.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Extras/Printer.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
 		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Extras/GeneratorSettingsLoader.cmake">
@@ -569,85 +682,25 @@
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Extras/Macros.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
 		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Extras/DebugOptions.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
-		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Extras/Printer.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
 		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Extras/GeneratorSettingsLoader.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Extras/Macros.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Extras/DebugOptions.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Extras/Printer.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Extras/GeneratorSettingsLoader.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Extras/CheckPathExistsCaseSensitive.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Extras/CheckPathExistsCaseSensitive.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/AvrLibraryGenerator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/AvrFirmwareGenerator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/ArduinoLibraryGenerator.cmake">
+		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/ArduinoExampleGenerator.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
 		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/ArduinoFirmwareGenerator.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
 		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/ArduinoExampleGenerator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
-		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/ArduinoLibraryExampleGenerator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/AvrLibraryGenerator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/AvrFirmwareGenerator.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
 		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/ArduinoLibraryGenerator.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
 		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/ArduinoFirmwareGenerator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/ArduinoExampleGenerator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/ArduinoLibraryExampleGenerator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/AvrLibraryGenerator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
-		</Unit>
 		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/AvrFirmwareGenerator.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
 		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/ArduinoLibraryGenerator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/ArduinoFirmwareGenerator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/ArduinoExampleGenerator.cmake">
-			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
-		</Unit>
-		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/ArduinoLibraryExampleGenerator.cmake">
+		<Unit filename="/home/jarl/Programming/Skalleper/cmake/Platform/Generation/AvrLibraryGenerator.cmake">
 			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
 		</Unit>
 	</Project>
